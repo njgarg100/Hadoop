@@ -1,0 +1,18 @@
+Commands to run in Hadoop - 
+
+1. start-all.sh - starts all the resources 
+Starting namenodes on [localhost]
+Starting datanodes
+Starting secondary namenodes [anuj-X550LD]
+Starting resourcemanager
+Starting nodemanagers
+
+2. http://localhost:9870  - check the localhost whether the hadoop is up or not
+
+3. haddop fs -mkdir -p <directory path>   - to make a directory in hadoop cluster
+   hdfs dfs -mkdir -p <directory path>
+   hdfs dfs -mkdir -p <directory path1> <directory path2>  - can make multiple directories
+
+4. 
+
+
