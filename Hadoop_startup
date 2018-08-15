@@ -13,6 +13,38 @@ Starting nodemanagers
    hdfs dfs -mkdir -p <directory path>
    hdfs dfs -mkdir -p <directory path1> <directory path2>  - can make multiple directories
 
-4. 
+4. hadoop fs -ls <args>
+
+5. hdfs dfs -put <local> <remote>
+
+6. hdfs dfs -get <remote> <local folder having permissions>
+
+7. hdfs dfs -cat <remote>
+
+8. hdfs dfs -cp <source> <dest>
+
+9. hdfs dfs -copyFromLocal <local> URI
+
+10. hdfs dfs -copyToLocal URI <local>
+
+11. hdfs dfs -mv <src> <dest>
+
+12. hdfs dfs -rm <arg>
+
+13. hdfs dfs -rmr <arg>
+
+14. hdfs dfs -tail <path[filename]>  - Display the last few lines of a file
+
+15. hdfs dfs -du <path> - displat the aggregate length of the file
+
+16. 
+
+
+
+
+
+
+
+
 
 
